@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spa Day</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https/maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->:/
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--  Font links -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+
+
+
+<!-- Navbar here -->
+<nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html"><img src="https://cdn.logo.com/hotlink-ok/enterprise/eid_422203f0-477b-492b-9847-689feab1452a/logo-dark-2020.png" style="width: 4%; height: 4%;"></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto" style="margin-right: 70px;">
+    <li class="nav-item">
+      <a class="nav-link" href="Spa about us.html" style="font-size: 14pt; font-family: 'fira sans';">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Spa service.html" style="font-size: 14pt; font-family: 'fira sans';">Service</a>
+  </ul>
+</nav>  
+
+
+
+
+<body>
+  <style type="text/css">
+     .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #F05E85;
+    }
+
+    .button1{
+      display: inline-block;
+      font-size: 20px;
+      font-family: fira sans;
+      text-decoration: none;
+      color: #F05E85;
+      border: #F05E85 2px solid;
+      width: 420px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background-color ease 500ms;
+      background-color: transparent;
+    }
+    .button1:hover{
+      background-color: rgb(255,255,255, 0.8);
+    }
+
+    .button0{
+      width: 310px;
+      height: 310px;
+      text-align: center;
+      font-family: Fira sans light;
+      font-size: 24pt;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 200px;
+      padding: 10px 20px;
+    }
+
+    .button2{
+      display: inline-block;
+      font-size: 14pt;
+      font-family: fira sans;
+      text-decoration: none;
+      color: #FFF;
+      border: #F05E85 2px solid;
+      padding: 10px 20px;
+      border-radius: 50px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background-color ease 500ms;
+      background-color: #F05E85;
+    }
+    .button2:hover{
+      background-color: rgb(255,255,255, 0.8);
+    }
+
+    
+
+    .social-menu ul {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .social-menu ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .social-menu ul li .fa {
+        color: #000000;
+        font-size: 25px;
+        line-height: 50px;
+        transition: .5s;
+    }
+    .social-menu ul li .fa:hover {
+        color: #ffffff;
+    }
+    .social-menu ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    .social-menu ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    .social-menu ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    .social-menu ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    .social-menu ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    .social-menu ul li:nth-child(4) a:hover {
+        background-color: #cd201f;
+    }
+    .social-menu ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
+    }
+
+
+   </style>
+
+
+<!-- Landing part -->
+<section style="background-image: url('https://images.pexels.com/photos/1103624/pexels-photo-1103624.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'); background-size: cover; background-position:center ; height: 100vh;">
+  <div class="container">
+    <h1 style="font-size: 140px; font-family: 'Parisienne', cursive; margin-top: 300px">It's Spa Day!</h1>
+    <br>
+    <p style="font-family: 'lato'; color: #D85A7B; font-size: 20pt; line-height: 0.5;">
+      Your body hurt? Are you tied?
+    </p>
+    <p style="font-family: 'lato'; color: #D85A7B; font-size: 20pt; line-height: 1;">
+      Come and rest your bone with us
+    </p>
+    <br>
+    <div class="row">
+      <div class="col">
+        <a href="Spa service.html">
+          <button class="button1">
+          Rest here
+          </button>
+        </a>
+      </div>
+      <div>
+        <a href="Spa about us.html">
+          <button class="button1">
+            About us
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Service part -->
+<section style="margin-right: 70px;margin-left: 70px;">
+  <br><br><br>
+  <h1 style="font-size: 42pt; font-family: 'Parisienne', cursive; text-align:center;">Service</h1>
+  <br>
+
+
+    <div class="row">
+    
+      <!-- Service 1 -->
+      <div class="col" >
+        <button class="button0" style="background: rgb(0, 0, 0, 0.45) url(https://images.pexels.com/photos/5240817/pexels-photo-5240817.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size: cover; background-position:center ; background-blend-mode: darken;">
+          Face mask
+        </button>      
+      </div>
+      <!-- Service 2 -->
+      <div class="col">
+        <button class="button0" style="background: rgb(0, 0, 0, 0.45) url(https://images.pexels.com/photos/7020040/pexels-photo-7020040.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size: cover; background-position:center ; background-blend-mode: darken;">
+          Bubble bath
+        </button>      
+      </div>
+      <!-- Service 3 -->
+      <div class="col">
+        <button class="button0" style="background: rgb(0, 0, 0, 0.45) url(https://images.pexels.com/photos/6628640/pexels-photo-6628640.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size: cover; background-position:center ; background-blend-mode: darken;">
+          Massage
+        </button>      
+      </div>
+      <!-- Service 4 -->
+      <div class="col" style="align-content: center;">
+        <button class="button0" style="background: rgb(0, 0, 0, 0.45) url(https://i.ytimg.com/vi/CxXcfJw7Bp0/maxresdefault.jpg); background-size: cover; background-position:center ; background-blend-mode: darken;">
+          Wrestling
+        </button>      
+      </div>
+    </div>
+</div>
+</section>
+<br><br><br>
+<br><br><br>
+
+
+
+
+<!-- Service part -->
+<section style="margin-right: 70px;margin-left: 70px;">
+  
+  <div class="row">
+    
+    <div class="col" style="margin-right:20px">
+      <h1 style="font-size: 72pt ; text-align: left; font-family: fira sans light">
+        THE BEST SPA YOU WILL EVER NEED
+      </h1>      
+    </div>
+
+    <div class="col" style="margin-right:20px">
+      <h2 style="font-size: 36pt ; text-align: left; font-family: fira sans">
+        All the tech and skill to make you feel good
+      </h2>
+      <br> <br>
+      <P style="font-size: 14pt ; text-align: left; font-family: fira sans light">
+        We're no strangers to love. 
+        You know the rules and so do I.
+        A full commitment's what I'm thinking of. 
+        You wouldn't get this from any other guy. 
+        I just wanna tell you how I'm feeling. 
+        Gotta make you understand<br>
+        Never gonna give you up<br>
+        Never gonna let you down<br>
+        Never gonna run around and desert you<br>
+        Never gonna make you cry<br>
+        Never gonna say goodbye<br>
+        Never gonna tell a lie and hurt you<br>
+        We've known each other for so long<br>
+        Your heart's been aching but you're too shy to say it. 
+        Inside we both know what's been going on. 
+        We know the game and we're gonna play it. 
+        And if you ask me how I'm feeling. 
+        Don't tell me you're too blind to see<br>
+        Never gonna give you up<br>
+        Never gonna let you down<br>
+        Never gonna run around and desert you<br>
+        Never gonna make you cry<br>
+        Never gonna say goodbye<br>
+        Never gonna tell a lie and hurt you<br>
+        Never gonna give you up<br>
+        Never gonna let you down<br>
+        Never gonna run around and desert you<br>
+        Never gonna make you cry<br>
+        Never gonna say goodbye<br>
+        Never gonna tell a lie and hurt you.<br>
+      </P>  
+      <button class="button1" style="width: 100%">
+      Find out more
+      </button>    
+    </div>
+    
+  </div>
+
+</section>
+
+<br><br><br>
+<br><br><br>
+
+
+
+
+<!-- Footer part -->
+<section style="background: #303030">
+  <br><br><br><br>
+  <h2 style="font-size: 24pt ; font-family: fira sans; text-align: center; color: #FFF;">
+    Join the community
+  </h2>
+  <br><br>
+  <p style="font-size: 14pt; font-family: fira sans light; text-align: center;color: #FFF; line-height: 2.5; ">
+    Your email will connect you to EVEN MORE services and promotion
+  </p>
+
+  <div class="container" style="align-self: center;">
+    <div class="row">
+           <input type="text" 
+          id="Email" 
+          name="Email" 
+          placeholder="Your email here"
+          style="
+            border: none;
+            font-size: 14pt;
+            font-family: fira sans;
+            background: #Fef7f8;
+            appearance: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            outline: #FFF; 
+            width: 500px;">
+        <input type="submit" value="Subscribe now"
+          style="
+          border: none;
+          font-size: 14pt;
+          font-family: fira sans;
+          color: #fff;
+          background: #F05E85;
+          appearance: none;
+          padding: 10px 20px;
+          border-radius: 50px;
+          outline: #FFF;
+          margin-left: 20px;
+          width: 200px;  ">
+    </div>
+
+
+  
+
+ <div class="social-menu" style="margin-top: 100px;margin-left: 715px; margin-right: 715px;">
+  <ul>
+    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+</div>
+</div>
+    
+
+  <br><br>
+</section>
+</body>
+</html>
